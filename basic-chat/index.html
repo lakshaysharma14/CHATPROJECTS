@@ -1,0 +1,36 @@
+<html>
+<head>
+
+	<title>Chat App</title>
+
+	<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "XXX",
+	    authDomain: "XXX",
+	    databaseURL: "XXX",
+	    projectId: "XXX",
+	    storageBucket: "XXX",
+	    messagingSenderId: "XXX"
+	  }; 
+	  firebase.initializeApp(config);
+	</script>
+
+</head>
+
+<body>
+
+	<div id="msgDiv"></div>
+
+	<input id="msgBox" type="text"></input>
+	
+	<button id="sendBtn">Send</button>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="main.js"></script>
+
+</body>
+</html>
+
